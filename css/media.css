@@ -25,7 +25,12 @@
   .customers-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 72px 16px;
+  }
+
+  .customers-item {
+    margin: 0;
   }
 
   .customers-item:not(:last-child) {
@@ -48,10 +53,6 @@
 
   .modal-form-text {
     font-size: 16px;
-  }
-
-  .modal-form-check-desc {
-    font-size: 12px;
   }
 }
 
@@ -78,7 +79,7 @@
 
   .current::after {
     position: absolute;
-    bottom: -38px;
+    bottom: -32px;
     transform: translateX(-100%);
     content: "";
     width: 100%;
@@ -231,6 +232,14 @@
     margin-bottom: 0;
   }
 
+  .footer-box-logo-text .logotype {
+    text-align: left;
+  }
+
+  .soc-title {
+    text-align: left;
+  }
+
   .footer-box-soc-media {
     margin-bottom: 0;
   }
@@ -282,7 +291,7 @@
   /* ==================HEADER================== */
   .current::after {
     position: absolute;
-    bottom: -40px;
+    bottom: -33px;
     transform: translateX(-100%);
     content: "";
     width: 100%;
