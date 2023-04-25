@@ -702,7 +702,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow-y: auto;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--transition-dur-func),
     visibility var(--transition-dur-func);
@@ -726,7 +725,9 @@ body {
   transition: transform var(--transition-dur-func);
   transform-origin: right;
   width: 288px;
-  min-height: 586px;
+  max-height: 576px;
+  height: 90%;
+  overflow-y: auto;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
